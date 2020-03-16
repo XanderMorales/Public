@@ -1,0 +1,62 @@
+
+
+/* project classes */
+.project_left_nav { font-size:12px; font-family:verdana; background-color:#e8f0db; padding:12px; }
+.pnav { color:#758656; font-weight:bold; line-height:18px; }
+.pm_td_heading { font-weight:bold; }
+.pm_td_sub_heading { font-weight:bold; color:#787878; }
+
+/* home page */
+#home_left1 { position:relative; width:459px; height:230px; float:left; background-image:url('/media/images/bg_web_design.jpg'); text-align:right; }
+.lheading {  color:#174607; padding-right:12px; padding-top:14px; }
+.ltext { clear:both; float:right; width:245px; text-align:left; padding-top:10px; padding-right:12px; }
+.lbullets { font-weight:bold; font-size:14px; clear:both; text-align:left; float:right; width:250px; padding-top:14px; color:#174607; font-family:"Trebuchet MS", Helvetica, sans-serif; }
+.llink { position:absolute; right:0px; bottom:6px; clear:both; text-align:right; font-weight:bold; font-size:20px; padding-right:12px; font-family:"Trebuchet MS", Helvetica, sans-serif; }
+.lhomelink { color:#174607; text-decoration:none; }
+.lhomelink:hover { color:#64494c; }
+
+#home_right1 { position:relative; width:459px; height:230px; float:right; background-image:url('/media/images/bg_hosting.jpg'); }
+.rheading {  color:#38599b; padding-left:12px; padding-top:14px; }
+.rtext { clear:both; float:left; width:245px; text-align:left; padding-top:10px; padding-left:12px; }
+.rbullets { font-weight:bold; font-size:14px; clear:both; text-align:left; float:left; width:250px; padding-top:14px; padding-left:25px; color:#38599b; font-family:"Trebuchet MS", Helvetica, sans-serif; }
+.rlink { position:absolute; left:0px; bottom:6px; clear:both; text-align:left; font-weight:bold; font-size:20px; padding-left:12px; font-family:"Trebuchet MS", Helvetica, sans-serif; }
+.rhomelink { color:#38599b; text-decoration:none; }
+.rhomelink:hover { color:#64494c; }
+
+/* design elements */
+.dashed { border-top: 1px dashed #cccccc; }
+.arrow1 { position: relative; top:2px; }
+.box1 { background-image:url('/media/images/box1.jpg'); background-position: bottom; background-repeat: repeat-x; border:1px solid #ccd7c4; }
+.home_heading_icon { position:relative; top:2px; }
+
+/* standard hosting classes */
+.compare_heading1{ color:#d2dcf3; font-family:"Trebuchet MS", Helvetica, sans-serif; font-size:16px; text-align:center; font-weight:bold; }
+.compare_heading2{ color:#666666; font-family:Verdana; font-size:11px; text-decoration:none; font-weight:bold; }
+.host_content { font-size:11px; font-family:Verdana; color:#666666; }
+.buy_content { font-size:11px; font-family:Verdana; color:#e8f0db; font-weight:bold; text-align:center; text-decoration:none; }
+.buy_link { color:#669900; font-weight:normal; }
+.buy_link:hover { color:#99cc00; }
+.bold_color { color:#38599b; }
+.comp_link {  color:#245c9b; font-weight:bold; }
+
+/* blog classes */
+.serendipitySideBar a {color:#758656; font-weight:bold; line-height:18px; }
+.serendipitySideBar a:hover { color:#669900; }
+.serendipitySideBar { background-color:#e8f0db; width:100px; }
+.serendipity_xml_icon { position:relative; top:2px; }
+.serendipitySideBarContent { padding-left:12px; }
+.serendipity_entryFooter a { color:#38599b; }
+.serendipity_entryFooter a:hover {color:#000033; }
+.serendipity_title  a { color:#38599b; }
+.serendipity_title a:hover {color:#000033; }
+.serendipity_section_trackbacks a { color:#38599b; }
+.serendipity_section_trackbacks a:hover {color:#000033; }
+.serendipity_center a { color:#38599b; }
+.serendipity_center a:hover {color:#000033; }
+.serendipity_comment_source a { color:#38599b; }
+.serendipity_comment_source a:hover {color:#000033; }
+
+/* term classes */
+#terms { margin:20px; }
+.hlite { font-family: Arial; font-size: 14px; color: #174607; font-weight: bold; }
+.txt1 { font-family:Verdana; text-align:justify; font-size: 11px; color: #666666; }

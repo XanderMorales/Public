@@ -1,0 +1,44 @@
+/*
+input { border:1px solid #abadb3; font-family:verdana; font-size:12px; color:#676767; }
+select { border:1px solid #abadb3; font-family:verdana; font-size:12px; color:#676767; }
+textarea { border:1px solid #abadb3; font-family:verdana; font-size:12px; color:#676767; }
+input.disabled { border:1px solid #F2F2F2; background-color:#F2F2F2; }
+input.required, textarea.required { border:1px solid #abadb3; }
+input.validation-failed, textarea.validation-failed { border:1px solid #ff3300; }
+input.validation-passed, textarea.validation-passed { border:1px solid #abadb3; }
+.validation-advice { position:absolute; font-weight:normal; font-size:11px; font-family:tahoma; color:#676767; position:relative; left:5px; }
+.custom-advice { background-color:#f26f28; color:#f26f28; }
+.form-row { clear:both; min-height: 43px; }
+.field-label { font-family:verdana; font-size:12px; float:left; width:150px; color:#676767; }
+.field-widget { font-family:verdana; font-size:12px; float:left; color:#676767; }
+label { color:#0061aa; font-family:verdana; font-size:12px; font-weight:bold; }
+.required{ }
+.infimg { border:0px; position:relative; top:1px; }
+.button { border:1px solid #CCCCCC; border-top-color:#999999; border-left-color:#999999; font-size:14px; color:#333333; }
+.form_heading { color:#676767; font-weight:bold; font-family:arial; font-size:14px; clear:both; }
+.chbx { border:0px; }
+*/
+
+input { border:1px solid #abadb3; font-family:verdana; font-size:12px; color:#676767; }
+select { border:1px solid #abadb3; font-family:verdana; font-size:12px; color:#676767; }
+textarea { border:1px solid #abadb3; font-family:verdana; font-size:12px; color:#676767; }
+.button { border:1px solid #CCCCCC; border-top-color:#999999; border-left-color:#999999; font-size:12px; font-weight:bold; color:#e9eff8; background-color:#145099; font-family:"Trebuchet MS", Helvetica, sans-serif; }
+.form_heading { color:#676767; font-weight:bold; font-family:arial; font-size:14px; clear:both; }
+.chbx { border:0px; }
+
+
+.form-container { position:relative; margin-left:auto; margin-right:auto; text-align:center; border:1px dashed #cccccc; padding:24px; z-index:50; }
+label { color:#4e463f; font-family:verdana; font-size:12px; }
+label span { font-weight:normal; color:#4e463f; font-size:10px; }
+
+div.form_container { font-size:14px; font-family:arial; padding-left:30px; }
+div.form-row { clear:both; min-height:43px; height:43px; position:relative; }
+div.form-title { font-family:verdana; font-size:12px; position:relative; float:left; width:150px; color:#4e463f; }
+div.form-title label { width:12em; }
+div.form-data { position:relative; float:left; font-family:verdana; font-size:12px; color:#676767; }
+div.form-note { visibility:hidden; clear:both; }
+div.form-row { position: relative; text-align: left; clear: left; min-height:30px; }
+div.form-note, div.form-error, div.form-success { background: transparent url(/media/images/icons/form-info.gif) no-repeat scroll 1px 1px; padding-left:25px; height:30px; font-size:11px; font-weight:bold; font-family:verdana; font-weight:normal; }
+div.form-error { clear:both; background: transparent url(/media/images/icons/form-error.gif) no-repeat scroll 1px 1px; }
+div.form-success { clear:both; background: transparent url(/media/images/icons/form-success.gif) no-repeat scroll 1px 1px; }
+.error { clear:both; color:red; font-weight:bold; font-family:arial; font-size:13px; }

@@ -1,0 +1,51 @@
+html,body { margin:0px; padding:0px; height:100%; }
+body { background-image:url('/media/images/bg.jpg'); background-repeat:repeat-x; background-color:#cad6c2; color:#4e4e4e; }
+
+#main_container { position:relative; width:987px; margin-left:auto; margin-right:auto; text-align:left; }
+
+#header { background-image:url('/media/images/header.jpg'); background-repeat:repeat-x; width:987px; height:131px; }
+#header .logo { position:relative; top:20px; left:16px; float:left; height:32px; }
+#header .side_text { position:relative; font-size:11px; float:left; top:29px; left:35px; font-family:Verdana, Geneva, sans-serif; color:#489036; border-left: dotted 1px #38599b; padding-left:18px; color:#38599b; }
+/* #header .side_text a { color:#489036; text-decoration:none; font-weight:bold; } */
+#header .phone_number { position:relative; float:right; font-family:"Trebuchet MS", Helvetica, sans-serif; top:27px; right:16px; color:#38599b; font-size:20px; font-style:italic; font-weight:bold; width:290px; }
+
+/* main navigation styles */
+#header .main_nav_area { padding-top:3px; clear:both; top:39px; position:relative; font-family:"Trebuchet MS", Helvetica, sans-serif; font-size:16px; font-weight:bold; height:28px; }
+#header .main_nav_area .nav_breaker { float:left; width:2px; height:28px; background-image:url('/media/images/nav_breaker.gif'); }
+#home, #but0, #but1, #but2, #but3, #but4, #but5, #but6, #but7 { padding-left:16px; padding-right:16px; padding-top:4px; float:left; height:23px;  color:#174607; }
+#home a, #but0 a, #but1 a, #but2 a, #but3 a, #but4 a, #but5 a, #but6 a, #but7 a { color:#174607; text-decoration:none; }
+.activetab { background-image:url('/media/images/activetab.gif'); }
+.msover { background-image:url('/media/images/msover.gif'); }
+
+/* sub navigation styles */
+#header .sub_nav_area { clear:both; position:relative; top:40px; font-family:"Trebuchet MS", Helvetica, sans-serif; font-size:14px; color:#e8f0db; padding-top:3px; padding-left:16px; }
+#header .sub_nav_area a { color:#e8f0db; text-decoration:none; font-weight:bold; }
+
+#body_top { height:7px; background-image:url('/media/images/top_body.jpg'); background-repeat:no-repeat; background-position:bottom; }
+.body_area { width:985px; background-color:#ffffff; border-left: 1px solid #bbc6b4; border-right: 1px solid #c1c7cd; font-size:12px; font-family:Verdana, Geneva, sans-serif; padding-bottom:12px; }
+#body_bot { height:7px; background-image:url('/media/images/bot_body.jpg'); background-repeat:no-repeat; background-position:top; }
+
+
+#footer_top { height:4px; background-image:url('/media/images/top_footer.jpg'); background-repeat:no-repeat; background-position:bottom; }
+#footer_area { width:985px; background-color:#e6eaf0; border-left: 1px solid #bbc6b4; border-right: 1px solid #c1c7cd; color:#757575; position:relative; }
+#footer_bot { height:4px; background-image:url('/media/images/bot_footer.jpg'); background-repeat:no-repeat; background-position:top; }
+
+/* footer classes */
+.bot_info { width:18%; position:relative; float:left; padding:12px; font-family:arial, "lucida console", sans-serif; font-size:11px; color:#5e5e5e; background-image:url(/media/images/bot_vert_line.gif); background-repeat:repeat-y; background-position:right; }
+.bot_heading { color:#38599b; font-family:"Trebuchet MS", Helvetica, sans-serif; font-size:14px; font-weight:bold; }
+.bot_padding { margin:0px; padding:0px; padding-left:10px; padding-top:7px; }
+.bot_info_final { position:relative; float:left; padding:12px; font-size:11px; color:#5e5e5e; text-align:center; font-family:arial, "lucida console", sans-serif; }
+.cp_text { padding-top:7px; padding-bottom:7px; font-size:10px; font-family:arial, "lucida console", sans-serif; }
+.bot_link { color:#6e80a9; text-decoration:none; }
+.bot_link:hover { color:#38599b; text-decoration:none; }
+
+.bot_breaker { height:2px; background-image:url(/media/images/bot_breaker.gif); background-repeat:repeat-x; clear:both; margin:10px; position:relative; top:10px; padding-bottom:12px; }
+
+.copy_container { padding-left:12px; padding-right:12px; padding-top:10px; margin-left:12px; margin-right:12px; color:#4e4e4e; font-family:Verdana, Geneva, sans-serif; }
+.blink { color:#afaaaa; font-family:Tahoma, Geneva, sans-serif; font-size:10px; text-decoration:none; }
+.blink:hover { color:#38599b; }
+
+/*
+#copy_container  a { color:#105cb6; }
+#copy_container  a:hover { color:#4e463f; }
+*/

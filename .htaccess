@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} !^framework\.webeditors\.com [NC]
+RewriteRule ^(.*)$ http://framework.webeditors.com/$1 [R=301,L]
+
+RewriteCond $1 !^(index\.php|media|var|robots\.txt|favicon\.ico)
+RewriteRule ^(.*)$ /index.php/$1 [L]

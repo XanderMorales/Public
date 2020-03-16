@@ -1,0 +1,19 @@
+/* common classses */
+h1{ font-family:"Trebuchet MS", Helvetica, sans-serif; color:#539e3a; padding:0px; margin:0px; font-size:24px; font-style:normal; }
+h2{ font-family:"Trebuchet MS", Helvetica, sans-serif; color:#539e3a; padding:0px; margin:0px; font-size:18px; font-style:normal; }
+h3{ font-family:"Trebuchet MS", Helvetica, sans-serif; color:#174607; padding:0px; margin:0px; font-size:16px; font-weight:bold; font-style:normal; background-color:#e8f0db; padding:3px; }
+p { padding:0px; margin:0px; }
+ul { margin-top:0px; padding-top:0px; margin-bottom:0px; padding-bottom:0px; }
+dl { margin-top:0px; padding-top:0px; padding-left:12px; }
+dt { font-weight:bold; }
+b { color:#174607; }
+/* helpers */
+.indent { padding-left:12px; }
+.padt { padding-top:12px; }
+.padb { padding-bottom:12px; }
+.justify { text-align:justify; }
+.center { text-align:center; }
+.bold { font-weight:bold; }
+.bigger { font-size:14px; }
+.norm_link { color:#38599b; }
+.norm_link:hover {color:#000033; }
